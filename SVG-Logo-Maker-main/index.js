@@ -22,7 +22,7 @@ async function main() {
       console.error('Invalid shape selected.');
       return;
   }
-
+  const svg = newSvg
   shape.setColor(userInput.shapeColor);
 
   const svgString = shape.render();
